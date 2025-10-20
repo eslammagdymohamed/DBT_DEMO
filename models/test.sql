@@ -1,2 +1,2 @@
-select * from {{ source('demo', 'weather') }}
+select * from {{ source('demo', 'bike') }}
 limit 10
